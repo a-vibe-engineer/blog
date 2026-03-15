@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "welcome-to-terminal-blog",
+    "title": "Welcome to the Terminal Blog",
+    "date": "2026-03-15",
+    "summary": "Why this blog is built around command-line vibes."
+  },
+  {
+    "slug": "markdown-workflow",
+    "title": "A Markdown-First Writing Workflow",
+    "date": "2026-03-14",
+    "summary": "Simple habits for fast publishing with plain text."
+  },
+  {
+    "slug": "ship-small-every-day",
+    "title": "Ship Small Every Day",
+    "date": "2026-03-13",
+    "summary": "Tiny, consistent iterations beat rare giant launches."
+  }
+]

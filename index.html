@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terminal Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main class="shell">
+    <header class="shell-header">
+      <div class="lights" aria-hidden="true">
+        <span class="light red"></span>
+        <span class="light yellow"></span>
+        <span class="light green"></span>
+      </div>
+      <p class="path">a.vibe.engineer@blog:~$ ls posts</p>
+    </header>
+
+    <section class="shell-body">
+      <h1 class="prompt">$ cat README.md</h1>
+      <p class="intro">
+        Welcome to my blog for small thoughts. And hobby projects.
+      </p>
+
+      <h2 class="prompt">$ tree ./posts</h2>
+      <ul id="post-list" class="post-list" aria-live="polite"></ul>
+    </section>
+  </main>
+
+  <script src="main.js" defer></script>
+</body>
+
+</html>

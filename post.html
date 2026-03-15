@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post | Terminal Blog</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+  <main class="shell">
+    <header class="shell-header">
+      <div class="lights" aria-hidden="true">
+        <span class="light red"></span>
+        <span class="light yellow"></span>
+        <span class="light green"></span>
+      </div>
+      <p class="path">a.vibe.engineer@blog:~$ cat post.md</p>
+    </header>
+
+    <section class="shell-body">
+      <p><a class="back-link" href="index.html">&lt; back to posts</a></p>
+      <h1 class="prompt" id="post-title">$ loading...</h1>
+      <article id="post-content" class="article"></article>
+    </section>
+  </main>
+
+  <script src="post.js" defer></script>
+</body>
+
+</html>
